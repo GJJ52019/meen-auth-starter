@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 // User Schema
 const userSchema = Schema({
-  email: { type: String, unique: true, required: true },
+  email: { type: String, unique: true, required: true },//enfoces unique address mongo does this for us
   password: { type: String, required: true }
 });
 
